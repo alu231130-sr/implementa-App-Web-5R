@@ -7,7 +7,7 @@ class mensaje
 {
     public $mensaje1="Bienvenidos a App Web";
     public $mensaje2="Alison Janice";
-    public $mensaje3="BSaldaña";
+    public $mensaje3="Saldaña";
     public $mensaje4="Vargas";
     public function imprimir_mensaje()
     {
@@ -19,4 +19,5 @@ class mensaje
 }
 $obj1=new mensaje;  //se crea el objeto de tipo de mensaje
 $obj1->imprimir_mensaje();
+
 ?>
